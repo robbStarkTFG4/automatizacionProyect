@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import automatizacion.resources.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="automatizacion.GemmaController">
+   <children>
+      <SplitPane fx:id="parentPane" dividerPositions="0.6889632107023411" prefHeight="160.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane fx:id="anime" minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="457.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="70.0" SplitPane.resizableWithParent="false">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-alignment: center;">
+                           <children>
+                              <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-alignment: center;">
+                                 <children>
+                                    <Button mnemonicParsing="false" text="Button" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-alignment: center;">
+                                 <children>
+                                    <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="81.0" prefWidth="60.0" style="-fx-padding: 5;">
+                                       <children>
+                                          <Button mnemonicParsing="false" text="Button" />
+                                       </children>
+                                    </VBox>
+                                    <VBox style="-fx-padding: 5;">
+                                       <children>
+                                          <Button mnemonicParsing="false" text="Button" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-alignment: center;">
+                                 <children>
+                                    <Button mnemonicParsing="false" text="Button" />
+                                 </children>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <TextField fx:id="cantidad">
+                                 <VBox.margin>
+                                    <Insets left="5.0" right="5.0" />
+                                 </VBox.margin></TextField>
+                              <Button fx:id="btn1" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Button">
+                                 <VBox.margin>
+                                    <Insets left="5.0" right="5.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </Button>
+                              <SplitMenuButton maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="SplitMenuButton">
+                                <items>
+                                  <MenuItem mnemonicParsing="false" text="Action 1" />
+                                  <MenuItem mnemonicParsing="false" text="Action 2" />
+                                </items>
+                                 <VBox.margin>
+                                    <Insets left="5.0" right="5.0" top="10.0" />
+                                 </VBox.margin>
+                              </SplitMenuButton>
+                              <Button fx:id="pruebaCom" mnemonicParsing="false" text="Button" />
+                              <Button fx:id="pbCom2" mnemonicParsing="false" text="Button" />
+                              <Button fx:id="pbCom3" mnemonicParsing="false" text="Button" />
+                              <Button fx:id="pbCom4" mnemonicParsing="false" text="Contador" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="40.0" />
+                           </VBox.margin>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
